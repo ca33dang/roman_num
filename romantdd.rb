@@ -38,4 +38,7 @@ class Testing < Minitest::Test
 	def test_50_return_L
 		assert_equal("L", romanize(50))
 	end
+	def test_90_return_XC
+		assert_equal("XC", romanize(90))
+	end
 end
