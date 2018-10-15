@@ -11,8 +11,8 @@ def romanize(number)
   return numerals
 end
 def arabic(romans)
-  letters = %w[IX X IV V I]
-  values = [9, 10, 4, 5, 1]
+  letters = %w[XL L IX X IV V I]
+  values = [40, 50, 9, 10, 4, 5, 1]
   arabic_num = letters.zip values
   number = 0
   arabic_num.each do |v|
