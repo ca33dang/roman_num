@@ -68,5 +68,8 @@ class Testing < Minitest::Test
 	def test_III_return_3
 		assert_equal(3, arabic("III"))
 	end
+	def test_IV_return_4
+		assert_equal(4, arabic("IV"))
+	end
 
 end
