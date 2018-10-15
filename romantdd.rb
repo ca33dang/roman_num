@@ -59,4 +59,7 @@ class Testing < Minitest::Test
 	def test_1798
 		assert_equal("MDCCXCVIII", romanize(1798))
 	end
+	def test_sky
+		assert_equal(Integer,arabic("").class)
+	end
 end
