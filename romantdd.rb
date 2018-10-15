@@ -89,5 +89,14 @@ class Testing < Minitest::Test
 	def test_XC_equal_90
 		assert_equal(90, arabic("XC"))
 	end
+	def test_C_equal_100
+		assert_equal(100, arabic("C"))
+	end
+	def test_CD_equal_400
+		assert_equal(400, arabic("CD"))
+	end
+	def test_D_equal_500
+		assert_equal(500, arabic("D"))
+	end
 
 end
