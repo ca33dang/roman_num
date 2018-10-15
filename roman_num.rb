@@ -10,4 +10,6 @@ def romanize(number)
   end
   return numerals
 end
-puts romanize(100)
+def arabic(letters)
+1
+end
