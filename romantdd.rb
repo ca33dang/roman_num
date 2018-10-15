@@ -44,5 +44,7 @@ class Testing < Minitest::Test
 	def test_100_return_X
 		assert_equal("C", romanize(100))
 	end
-	
+	def test_400_return_CD
+		assert_equal("CD", romanize(400))
+	end
 end
