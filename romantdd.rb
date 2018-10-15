@@ -83,5 +83,11 @@ class Testing < Minitest::Test
 	def test_XL_return_40
 		assert_equal(40, arabic("XL"))
 	end
+	def test_L_equal_50
+		assert_equal(50, arabic("L"))
+	end
+	def test_XC_equal_90
+		assert_equal(90, arabic("XC"))
+	end
 
 end
