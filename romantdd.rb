@@ -8,4 +8,7 @@ class Testing < Minitest::Test
 	def test_for_string
 		assert_equal(String, romanize(0).class)
 	end
+	def test_1_return_i
+		assert_equal("I", romanize(1))
+	end
 end
