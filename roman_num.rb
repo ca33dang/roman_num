@@ -1,6 +1,6 @@
 def romanize(number)
-  letters = %w[X IX V IV I]
-  values = [10, 9, 5, 4, 1]
+  letters = %w[XL X IX V IV I]
+  values = [40, 10, 9, 5, 4, 1]
   roman = letters.zip values
   n = number
   numerals = ""
