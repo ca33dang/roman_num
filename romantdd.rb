@@ -26,4 +26,7 @@ class Testing < Minitest::Test
 	def test_9_return_IX
 		assert_equal("IX", romanize(9))
 	end
+	def test_10_return_X
+		assert_equal("X", romanize(10))
+	end
 end
