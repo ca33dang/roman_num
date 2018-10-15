@@ -53,4 +53,7 @@ class Testing < Minitest::Test
 	def test_900_return_CM
 		assert_equal("CM", romanize(900))
 	end
+	def test_1000_return_M
+		assert_equal("M", romanize(1000))
+	end
 end
