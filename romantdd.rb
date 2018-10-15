@@ -62,4 +62,7 @@ class Testing < Minitest::Test
 	def test_sky
 		assert_equal(Integer,arabic("").class)
 	end
+	def test_I_return_1
+		assert_equal(1, arabic("I"))
+	end
 end
