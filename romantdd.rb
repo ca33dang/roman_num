@@ -101,5 +101,7 @@ class Testing < Minitest::Test
 	def test_CM_equal_900
 		assert_equal(900, arabic("CM"))
 	end
-
+	def test_M_equal_1000
+		assert_equal(1000, arabic("M"))
+	end
 end
